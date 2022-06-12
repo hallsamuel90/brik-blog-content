@@ -2,7 +2,7 @@
   "mainFeaturedBlogPost": {
     "id": "oo-to-fp",
     "title": "There and back again: Refactoring OO to FP",
-    "preview": "Functional programming(FP) seems to be completely in vogue these days. While I do think FP has many benefits, I often have a hard time with what sometimes seems to me a dogmatic comparison that FP is superior than object oriented (OO) programming.",
+    "preview": "Functional programming(FP) seems to be completely in vogue these days. While I do think FP has many benefits, I often have a hard time with...",
     "author": "Sam Hall",
     "publishDate": "Jun 11, 2022",
     "link": "oo-to-fp",

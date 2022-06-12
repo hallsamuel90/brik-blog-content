@@ -1,5 +1,3 @@
-# There and Back Again: Refactoring OO to FP
-
 Functional programming(FP) seems to be completely in vogue these days. While I do think FP has many benefits, I often have a hard time with what sometimes seems to me a dogmatic comparison that FP is superior than object oriented (OO) programming.
 
 Contrary to popular belief, I think that OO and FP are closer together than they might appear. At least this seems to be particularly true if the OO code is written with SOLID design principles in mind.

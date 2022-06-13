@@ -131,11 +131,11 @@ export const openAccount = ({
 
 But wait, how is this testable!? We are unable to inject our fake `dao` into the function. The answer here is that we _do not_ unit test the composition. Instead we unit test the pure parts which is very straight forward. In order to test the entire composition, we would need an integration test (a true testament to the name).
 
-In the end, maybe the goal is perhaps not the decision of OO or FP, but more so of stateless programming with clear responsibilities and limited coupling. 
+In the end, maybe the goal is not the decision of OO or FP, but more so of stateless programming with clear responsibilities and limited coupling. 
 
 Like most things in life, its not all black and white. Notice that all these refactorings were viable from the start. Each is stateless, testable, and has clear responsibilities! The main difference here is dependency management by using dependency inversion or dependency rejection.
 
-Perhaps we can conclude that the balance lies somewhere in the middle. Personally, I have a preference towards the higher order function refactoring. It seems to have the best of both worlds in that it: 
+I think I'd like to conclude that maybe the balance lies somewhere in the middle. Personally, I have a preference towards the higher order function refactoring. It seems to have the best of both worlds in that it: 
 
 - Avoids the spaghetti that can come along with classes and closures
 - Doesn’t make things so fine grained that its hard to keep track of (functional composition)

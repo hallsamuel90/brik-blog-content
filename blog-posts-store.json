@@ -1,15 +1,28 @@
 {
-  "mainFeaturedBlogPost": {
-    "id": "oo-to-fp",
-    "title": "There and back again: Refactoring OO to FP",
-    "preview": "Functional programming(FP) seems to be completely in vogue these days. While I do think FP has many benefits, I often have a hard time with...",
+  "mainFeaturedBlogPost":  {
+    "id": "backend-software-architecture-demystified",
+    "title": "Backend Software Architecture Demystified ✨",
+    "preview": "Have you heard of any of these software architectures? Ports and adapters, clean architecture, layered application, onion architecture, hexagonal, N-tiered, so on and so forth...",
     "author": "Sam Hall",
-    "publishDate": "Jun 11, 2022",
-    "link": "oo-to-fp",
+    "publishDate": "July 8, 2022",
+    "link": "backend-software-architecture-demystified",
     "image": {
-      "location": "/assets/frodo-fp.png",
-      "description": "frodo-fp"
+      "location": "/assets/usb-hub.png",
+      "description": "usb-hub"
     }
   },
-  "blogPosts": []
+  "blogPosts": [
+    {
+      "id": "oo-to-fp",
+      "title": "There and back again: Refactoring OO to FP",
+      "preview": "Functional programming(FP) seems to be completely in vogue these days. While I do think FP has many benefits, I often have a hard time with...",
+      "author": "Sam Hall",
+      "publishDate": "Jun 11, 2022",
+      "link": "oo-to-fp",
+      "image": {
+        "location": "/assets/frodo-fp.png",
+        "description": "frodo-fp"
+      }
+    }
+  ]
 }
